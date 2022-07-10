@@ -27,7 +27,7 @@ main {
     width: 60px;
     height: 60px;
     background-color: white;
-    color: gray;
+    color: grey;
     border-radius: 50%;
     border: 5px solid;
     font-size: 40px;
@@ -37,7 +37,7 @@ main {
 }
 
 .step-active {
-    border-color: blue;
+    border-color: dodgerblue;
 }
 
 .bar {
@@ -48,7 +48,7 @@ main {
 }
 
 .bar-active {
-    background-color: blue;
+    background-color: dodgerblue;
 }
 
 button {
@@ -58,7 +58,7 @@ button {
     width: 200px;
     font-weight: 500;
     color: white;
-    background-color: blue;
+    background-color: dodgerblue;
     margin: 20px;
     border: 1px solid black;
 }
