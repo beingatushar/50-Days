@@ -20,19 +20,19 @@ main,
 
 main {
     flex-direction: column;
-    gap: 50px;
+    gap: 25px;
 }
 
 .step {
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
     background-color: white;
-    color: grey;
+    color: gray;
     border-radius: 50%;
-    border: 5px solid;
-    font-size: 40px;
+    border: 2.5px solid;
+    font-size: 20px;
     font-weight: 500;
-    padding: 10px;
+    padding: 5px;
     border-color: grey;
 }
 
@@ -41,9 +41,9 @@ main {
 }
 
 .bar {
-    width: 150px;
-    height: 10px;
-    margin: 0 -2.5px;
+    width: 75px;
+    height: 5px;
+    /* margin: 0 -2px; */
     background-color: grey;
 }
 
@@ -52,14 +52,14 @@ main {
 }
 
 button {
-    padding: 10px;
-    font-size: 40px;
-    border-radius: 10px;
-    width: 200px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 100px;
     font-weight: 500;
     color: white;
     background-color: dodgerblue;
-    margin: 20px;
+    margin: 10px;
     border: 1px solid black;
 }
 
