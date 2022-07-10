@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     transition: background-color 50ms, border-color 60ms;
+    font-family: serif;
 }
 
 body {
