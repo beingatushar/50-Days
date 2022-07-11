@@ -93,3 +93,9 @@ a {
 #switch:hover {
     cursor: pointer;
 }
+
+@media (max-width:700px) {
+    * {
+        font-size: 25px;
+    }
+}
