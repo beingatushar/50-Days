@@ -50,7 +50,7 @@ h2 {
 body {
     background-color: aliceblue;
     display: flex;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .nav {
@@ -92,10 +92,4 @@ a {
 
 #switch:hover {
     cursor: pointer;
-}
-
-@media (max-width:700px) {
-    * {
-        font-size: 25px;
-    }
 }
