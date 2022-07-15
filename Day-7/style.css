@@ -10,12 +10,7 @@
 .container {
     display: flex;
     min-height: 100vh;
-}
-
-.overlay {
-    background-color: aliceblue;
-    display: flex;
-    width: 100vw;
+    background-color: black;
 }
 
 .product {
