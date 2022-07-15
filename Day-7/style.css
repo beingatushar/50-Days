@@ -66,11 +66,15 @@
 }
 
 .active {
-    width: 65%;
+    width: 55%;
     opacity: 1;
 }
 
 .inactive {
-    width: 35%;
+    width: 45%;
     opacity: 0.75;
+}
+
+.inactive .heading {
+    font-size: 3em;
 }
