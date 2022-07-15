@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    transition: all linear 0.3s;
+    transition-delay: 50ms;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.overlay {
+    background-color: aliceblue;
+    display: flex;
+    width: 100vw;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 3em;
+    background-position: center;
+    background-size: cover;
+}
+
+.ps {
+    background-image: url("ps.jpg");
+}
+
+.xbox {
+    background-image: url("xbox2.jpg");
+}
+
+.heading {
+    margin-top: 25vh;
+    font-size: 4em;
+    text-align: center;
+}
+
+.buybutton {
+    border: 2px solid white;
+    background: rgb(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    font-size: 2em;
+    width: 8em;
+    height: 2em;
+}
+
+.buybutton:hover {
+    cursor: pointer;
+}
+
+.xbox .buybutton:hover {
+    background-color: rgb(16, 124, 15, 0.5);
+}
+
+.ps .buybutton:hover {
+    background-color: rgba(0, 98, 183, 0.5);
+    ;
+}
+
+.active {
+    width: 70%;
+    opacity: 1;
+}
+
+.inactive {
+    width: 30%;
+    opacity: 0.75;
+}
