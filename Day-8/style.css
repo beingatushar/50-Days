@@ -18,17 +18,19 @@ body {
 
 .container {
     background-color: rgb(20, 0, 0);
+    width: 60vw;
+    height: 80vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    padding: 5vmin 4vmin;
-    gap: 4.5vmin;
-    border-radius: 1.5vmin;
+    padding: 5vw 4vw;
+    gap: 4.5vw;
+    border-radius: 1.5vw;
 }
 
 .heading {
-    font-size: 5vmin;
+    font-size: 7vw;
     font-weight: 600;
 }
 
@@ -36,15 +38,15 @@ form {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    gap: 4.5vmin;
+    gap: 4.5vw;
 }
 
 .inputbox {
-    font-size: 3vmin;
+    font-size: 4vw;
     background: none;
     border: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    padding: 2vmin;
+    padding: 2vw;
     color: white;
 }
 
@@ -53,22 +55,22 @@ form {
 }
 
 #login {
-    font-size: 3vmin;
+    font-size: 4vw;
     width: 100%;
-    height: 6vmin;
+    height: 8vw;
     background-color: rgb(196, 129, 5);
-    border-radius: 0.5vmin;
+    border-radius: 0.5vw;
     border: none;
 }
 
 .forgot {
-    font-size: 2.5vmin;
+    font-size: 3vw;
 }
 
 .register {
     color: aqua;
     text-decoration: none;
-    padding: 0.5vmin;
+    padding: 0.5vw;
 }
 
 .register:hover,
