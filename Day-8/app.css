@@ -64,6 +64,19 @@ form {
     background-color: rgb(209, 136, 0, 0.01);
 }
 
+label span {
+    display: inline-block;
+    transition: transform 0.3s cubic-bezier(.8, .5, .2, 1.4);
+    user-select: none;
+}
+
+.form-control input:focus+label span,
+.form-control input:valid+label span {
+    font-family: 'Roboto';
+    color: orange;
+    transform: translateY(-1.2em);
+}
+
 .btn {
     width: 100%;
     background-color: orange;
@@ -93,17 +106,4 @@ form {
 .register:active {
     color: rgb(209, 136, 0);
     transform: scale(0.98);
-}
-
-label span {
-    display: inline-block;
-    transition: transform 0.3s cubic-bezier(.8, .5, .2, 1.4);
-    user-select: none;
-}
-
-.form-control input:focus+label span,
-.form-control input:valid+label span {
-    font-family: 'Roboto';
-    color: orange;
-    transform: translateY(-1.2em);
 }
