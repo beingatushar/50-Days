@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-    font-size: 60px;
+    font-size: 30px;
     background-color: rgb(25, 0, 0);
     padding: 1em;
     border-radius: 1em;
@@ -107,16 +107,4 @@ label span {
 .register:active {
     color: rgb(209, 136, 0);
     transform: scale(0.98);
-}
-
-@media (min-width:480px) {
-    .container {
-        font-size: 45px;
-    }
-}
-
-@media (min-width:720px) {
-    .container {
-        font-size: 30px;
-    }
 }
