@@ -1,5 +1,5 @@
 const songs = document.querySelectorAll("audio");
-const container = document.querySelector(".container");
+const container = document.querySelector("body");
 let lastSong = null;
 songs.forEach(song => {
     let button = document.createElement("button");
