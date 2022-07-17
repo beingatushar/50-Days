@@ -20,23 +20,21 @@ body {
     gap: 20px;
 }
 
-audio {
-    height: 40px;
-    width: 100px;
-    color: black;
-}
-
 button {
     cursor: pointer;
-    font-size: 30px;
+    font-size: 2em;
     text-transform: capitalize;
     padding: 1em 2em;
-    background-color: rgba(198, 0, 198, 0.5);
-    color: aliceblue;
-    border-color: aliceblue;
-    border-radius: 10px;
+    background-color: rgba(198, 0, 198);
+    color: rgb(255, 240, 232);
+    border: none;
+    border-radius: 0.3em;
 }
 
 button:hover {
-    background-color: rgba(198, 0, 198, 0.4);
+    background-color: rgba(198, 0, 198, 0.8);
+}
+
+button:active {
+    transform: scale(0.98);
 }
