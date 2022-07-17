@@ -4,6 +4,7 @@ const container = document.querySelector(".container");
 function stopAll() {
     audios.forEach(audio => {
         audio.pause();
+        audio.currentTime = 0;
     })
 }
 audios.forEach(audio => {
