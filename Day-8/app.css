@@ -107,3 +107,9 @@ label span {
     color: rgb(209, 136, 0);
     transform: scale(0.98);
 }
+
+@media (max-width:480px) {
+    .container {
+        font-size: 2em;
+    }
+}
