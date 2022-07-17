@@ -1,18 +1,16 @@
-const audios = document.querySelectorAll("audio");
+const songs = document.querySelectorAll("audio");
 const container = document.querySelector(".container");
-
-function stopAll() {
-    audios.forEach(audio => {
-        audio.pause();
-        audio.currentTime = 0;
-    })
-}
-audios.forEach(audio => {
+let lastSong = null;
+songs.forEach(song => {
     let button = document.createElement("button");
-    button.innerText = audio.id;
+    button.innerText = song.id;
     container.appendChild(button);
     button.addEventListener("click", () => {
-        stopAll();
-        audio.play();
+        if (lastSong) {
+            lastSong.pause();
+            lastSong.currentTime = 0;
+        }
+        song.play();
+        lastSong = song;
     })
 })
