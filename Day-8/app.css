@@ -5,6 +5,7 @@
     padding: 0;
     color: aliceblue;
     font-family: 'Raleway', sans-serif;
+    font-size: 1em;
 }
 
 body {
@@ -18,22 +19,23 @@ body {
 
 .container {
     background-color: rgb(25, 0, 0);
-    padding: 40px 20px;
-    border-radius: 8px;
+    padding: 1em;
+    border-radius: 1em;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 2em;
 }
 
 .heading {
     font-family: 'Roboto';
     text-align: center;
+    font-size: 1.5em;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 2em;
 }
 
 .form-control {
@@ -45,13 +47,13 @@ form {
     width: 100%;
     background-color: inherit;
     border: 0;
-    border-bottom: 1px solid aliceblue;
-    padding: 2px;
+    border-bottom: 0.05em solid aliceblue;
+    padding: 0.2em;
 }
 
 .form-control label {
     position: absolute;
-    top: 2px;
+    top: 0.2em;
 }
 
 .form-control input:focus,
@@ -63,8 +65,8 @@ form {
 .btn {
     width: 100%;
     background-color: orange;
-    padding: 5px 0;
-    border-radius: 5px;
+    padding: 0.5em 0;
+    border-radius: 0.5em;
     cursor: pointer;
     font-size: 0.9em;
 }
@@ -76,7 +78,7 @@ form {
 
 .sign-up {
     text-align: center;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 .register {
@@ -101,5 +103,5 @@ label span {
 .form-control input:valid+label span {
     font-family: 'Roboto';
     color: orange;
-    transform: translateY(-18px);
+    transform: translateY(-1.2em);
 }
