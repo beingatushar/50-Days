@@ -94,6 +94,7 @@ form {
 label span {
     display: inline-block;
     transition: transform 0.3s cubic-bezier(.8, .5, .2, 1.4);
+    user-select: none;
 }
 
 .form-control input:focus+label span,
