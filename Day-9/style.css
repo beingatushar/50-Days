@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: palevioletred;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+audio {
+    height: 40px;
+    width: 100px;
+    color: black;
+}
+
+button {
+    cursor: pointer;
+    font-size: 30px;
+    text-transform: capitalize;
+    padding: 1em 2em;
+    background-color: rgba(198, 0, 198, 0.5);
+    color: aliceblue;
+    border-color: aliceblue;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgba(198, 0, 198, 0.4);
+}
