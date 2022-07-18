@@ -16,7 +16,6 @@ body {
 
 .container {
     width: 50vw;
-    min-width: 400px;
     padding: 10px;
     background-color: white;
     border-radius: 10px;
@@ -62,4 +61,22 @@ body {
 .joke-button:active {
     background-color: rgb(182, 137, 238);
     transform: scale(0.98);
+}
+
+@media(max-width:630px) {
+    .container {
+        width: 90vw;
+    }
+}
+
+@media (max-width:360px) {
+    .heading {
+        font-size: 20px;
+    }
+    .joke-text {
+        font-size: 26px;
+    }
+    .joke-button {
+        font-size: 18px;
+    }
 }
