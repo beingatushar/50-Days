@@ -33,3 +33,9 @@ body {
     padding: 1em 2em;
     font-weight: bold;
 }
+
+@media(max-width:1380px) {
+    body {
+        flex-direction: column;
+    }
+}
