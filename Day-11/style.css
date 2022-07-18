@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+    height: 100vh;
+    background-color: #e1e1e1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    margin: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.heading {
+    padding: 2px;
+    font-weight: 500;
+}
+
+.card {
+    font-size: 25px;
+    border: 1px solid black;
+    min-width: 200px;
+    background-color: #eee;
+    padding: 1em 2em;
+    font-weight: bold;
+}
