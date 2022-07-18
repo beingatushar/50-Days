@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway');
 @import url('https://fonts.googleapis.com/css2?family=Roboto');
+
 * {
     margin: 0;
     padding: 0;
@@ -75,9 +76,11 @@ body {
     .heading {
         font-size: 20px;
     }
+
     .joke-text {
         font-size: 26px;
     }
+
     .joke-button {
         font-size: 18px;
     }
