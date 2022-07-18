@@ -17,6 +17,7 @@ body {
 
 .container {
     width: 50vw;
+    max-width: 1000px;
     padding: 10px;
     background-color: white;
     border-radius: 10px;
