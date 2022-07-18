@@ -12,6 +12,7 @@ body {
     align-items: center;
     justify-content: center;
     background: linear-gradient(to right, rgb(255, 148, 162), rgb(192, 147, 248));
+    letter-spacing: 2px;
 }
 
 .container {
