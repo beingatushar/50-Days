@@ -49,7 +49,7 @@ body {
 }
 
 .joke-button {
-    background: linear-gradient(to right, rgb(255, 148, 162), rgb(192, 147, 248));
+    background: rgb(192, 147, 248);
     color: aliceblue;
     padding: 0.7em 2em;
     border: none;
