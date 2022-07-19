@@ -4,8 +4,9 @@ inputText.addEventListener('keyup', (e) => {
     bubblesContainer.innerHTML =
         e.target.value
         .split(',')
-        .filter(element => element != "" && element != " ")
-        .map(element => `<div class = "bubble">${element.replaceAll(/\s/g,'')}</div>`)
+        .map(element => element.replaceAll(/\s/g, ''))
+        .filter(element => element != "")
+        .map(element => `<div class = "bubble">${element}</div>`)
         .join('');
     if (e.key === "Enter") {
         setTimeout(() => {
