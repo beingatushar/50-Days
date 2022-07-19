@@ -19,7 +19,7 @@ inputText.addEventListener('keyup', (e) => {
                 prev && prev.classList.toggle("bubble-active");
                 curr.classList.toggle("bubble-active");
                 prev = curr;
-            }, 30 * i);
+            }, 40 * i);
         }
     }
 })
