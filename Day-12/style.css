@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Muli');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: hsl(33, 100%, 97%);
+    font-family: 'Muli', sans-serif;
+    letter-spacing: 2px;
+    transition: all 1s ease;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading {
+    padding: 30px;
+    text-align: center;
+}
+
+.card {
+    border: 1px solid rgb(0, 0, 0, 0.4);
+    padding: 1em;
+    width: 600px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.card-active {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 5px 5px 10px;
+}
+
+.card-heading {
+    padding: 10px;
+    font-size: 1.4em;
+    position: relative;
+    padding-right: 50px;
+}
+
+.card-content {
+    display: none;
+}
+
+.card-content-active {
+    padding: 20px;
+    display: inline-block;
+    letter-spacing: 1.5px;
+}
+
+.faq-toggle {
+    cursor: pointer;
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    top: 8px;
+    right: 8px;
+    background-image: url("dropdown.png");
+    background-position: center;
+}
+
+.faq-toggle-active {
+    background: url("cross.png");
+}
+
+@media (max-width:680px) {
+    .card {
+        width: 90vw;
+    }
+}
