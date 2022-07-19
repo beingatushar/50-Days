@@ -4,15 +4,15 @@ inputText.addEventListener('keyup', (e) => {
     bubblesContainer.innerHTML =
         e.target.value
         .split(',')
-        .filter(element => element != "" && element === element.trim())
-        .map(element => `<div class = "bubble">${element}</div>`)
+        .filter(element => element != "" && element != " ")
+        .map(element => `<div class = "bubble">${element.replaceAll(/\s/g,'')}</div>`)
         .join('');
     if (e.key === "Enter") {
         setTimeout(() => {
             e.target.value = "";
         }, 50);
         let prev = null;
-        let times = 30;
+        let times = 100;
         for (let i = 0; i < times; i++) {
             setTimeout(() => {
                 let curr = pickRandomBubble();
