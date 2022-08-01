@@ -21,6 +21,9 @@ const cssContent = `* {
 
 body {
     min-height: 100vh;
+    display: "flex";
+    justify-content: center;
+    align-items: center;
 }`;
 const process = require('process');
 const fs = require("fs");
